@@ -42,7 +42,7 @@ contract Gallery is ERC721, Ownable {
     uint256 private primarySaleFee = 15; // 15 %
 
 
-    constructor() ERC721 ("MyGallery", "MG") public {}
+    constructor() ERC721 ("MyGallery", "MGY") public {}
 
     /*
     * @dev Function to set the marketplace fee percentage.
